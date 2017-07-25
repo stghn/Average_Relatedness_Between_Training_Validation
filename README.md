@@ -26,13 +26,13 @@
       - VALkinship <- relbtnSet(grm=grm_matrix,REFPOP=refHDP)  
  
  
-## Output  
+### Output  
 An R object with the headers  
-      - F           :: The diagonal element for animal i (1+F)  
-      - relmax      :: The maximum relationship between animal i and all other animals within a group (training) or between groups (training and testing set)   
-      - rel5        :: The mean of top 5 relationships between animal i and all other animals within a group (training) or between groups (training and testing set)  
-      - rel10       ::The mean of top 10 relationships between animal i and all other animals within a group (training) or between groups (training and testing set)  
-      - rel20       ::The mean of top 20 relationships between animal i and all other animals within a group (training) or between groups (training and testing set)  
-      - overall_pos :: The mean of all positive relationships between animal i and all other animals within a group (training) or between groups (between training and testing set)  
-      - overall     :: The mean of all relationships between animal i and all other animals within a group (training) or between groups (training and testing set)  
+    - F           :: diagonal element for animal i (1+F)  
+    - relmax      :: maximum relationship between animal i and all other animals within a group (training) or between groups (training and testing set)  
+    - rel5        :: mean of top 5 relationships between animal i and all other animals within a group or between groups  
+    - rel10       :: mean of top 10 relationships between animal i and all other animals within a group or between groups   
+    - rel20       :: mean of top 20 relationships between animal i and all other animals within a group or between groups   
+    - overall_pos :: mean of all positive relationships between animal i and all other animals within a group or between groups   
+    - overall     :: mean of all relationships between animal i and all other animals within a group or between groups   
     
