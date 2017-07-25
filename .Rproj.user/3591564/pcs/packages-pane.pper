@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "\\\\ad.local/dfs/AAS-Users/solomon.antwi.boison/Documents/R/win-library/3.3"
+    }
+}
