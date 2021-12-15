@@ -4,7 +4,7 @@
 
 ### R-script "relatedness.R"  
 - Two main functions: 
-     - **relwithinSet** function computes relatedness within a set of animals (with training and testing)  
+     - **relwithinSet** function computes relatedness within a set of animals (WITHIN training and testing)  
      - **relbtnSet** function computes relatedness between two groups (e.g. BETWEEN training and testing) 
      
 - Both of these functions require the following argument  
@@ -21,7 +21,7 @@
 ```
   
 #### Output of the example run 
-An R object with the following headers: 
+- An R object with the following headers: 
   - **F**: Diagonal element for animal i (1+F)  
   - **relmax**: Maximum relationship between animal i and all other animals within a group (training) or between groups (training and testing set)  
   - **rel5**: Mean of top 5 relationships between animal i and all other animals within a group or between groups  
