@@ -1,7 +1,7 @@
 ## Average Relatedness between training and testing set  
 
 ### The script compute average relatedness between reference (training) and validation (testing) population  
-
+---
 ### R-script "relatedness.R"  
 - Two main functions: 
      - **relwithinSet** function computes relatedness within a set of animals (WITHIN training and testing)  
@@ -11,7 +11,7 @@
      - **grm** : Genomic relationship matrix (GRM) in matrix format (This is suppose to be an R-object and use example script to convert to matrix format if GRM is in triplet format)
      - **POP** : a vector of rownames or colnames (this argument is used for **relwithinSet** function)  
      - **REFPOP** : a vector of rownames or colnames for the training set [NOT the testing set] (this argument is used for **relbtnSet** function)
-
+---
 #### Example run (see "averageREL.R" to run the example file)  
  
  ```R
